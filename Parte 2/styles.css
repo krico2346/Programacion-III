@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #8AA1B1;
+}
+
+.formulario{
+    background-color:#97A6B2;
+    max-width: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formulario h1{
+    font-family: "Rubik Dirt", system-ui;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.input input{
+    border-radius: 5px;
+    border: 2px solid #8AA1B1;
+    
+}
+
+.formulario button{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    border-color: aliceblue;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.formulario button:hover{
+    transform: scale(1.1);
+    background-color: lightblue;
+    font-weight: bold;
+
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #97A6B2;
+    transition: 0.5s ease;
+}
+
+.mensaje:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+}

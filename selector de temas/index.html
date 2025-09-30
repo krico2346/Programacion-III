@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body" class="tema-Claro">
+    <div class="container">
+        <h1>Selector de temas interactivos</h1>
+        <div class="theme-buttons">
+            
+            <button id="tema-Claro" onclick="tema_claro()">☀️ tema claro</button>
+            <button id="tema-oscuro" onclick="tema_oscuro()">🌚 tema oscuro</button>
+            <button id="tema-morado" onclick="tema_morado()">🟣 tema morado</button>
+        </div>
+
+        <div class="content">
+            <h2 id="titulocontenido">Bienvenido al selector de temas</h2>
+            <p>Ejemplo para manipular el DOM basado en los comandos relacionados con JavaScript</p>
+
+            <div class="demo-image">
+                <span><img src="https://picsum.photos/200/150" alt="Area de demostración" class="image"></span>
+            </div>
+
+            <p>Haz click en los botones de arriba para cambiar el tema de la página</p>
+        </div>
+        <div class="counter">
+            <span>cambio de tema:</span>
+            <span id="contador">0</span>
+        </div>
+        
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
